@@ -1,0 +1,3 @@
+/*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.select2&&jQuery.fn.select2.amd)var e=jQuery.fn.select2.amd;return e.define("select2/i18n/en",[],function(){return{errorLoading:function(){return"The results could not be loaded."},inputTooLong:function(e){var t=e.input.length-e.maximum,n="Please delete "+t+" character";return t!=1&&(n+="s"),n},inputTooShort:function(e){var t=e.minimum-e.input.length,n="请输入"+t+"个或者多个字符进行查询";return n},loadingMore:function(){return"正在加载更多结果…"},maximumSelected:function(e){var t="你只能选择 "+e.maximum+" 选项";return e.maximum!=1&&(t+="s"),t},noResults:function(){return"No results found"},searching:function(){return"Searching…"}}}),{define:e.define,require:e.require}})();
